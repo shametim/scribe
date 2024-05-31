@@ -1,0 +1,7 @@
+python slice_image.py image.bmp 64 slices
+
+python process_slices.py slices output_slices correlation_references.json
+
+python process_correlation_results.py
+
+python overlay.py
